@@ -1,0 +1,124 @@
+body {
+  background: url('images/fasil.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.display-4{
+    text-align: center;
+}
+.jumbotron{
+    background-image: url('images/Ethiopianflag.jpg');
+    background-size: contain;
+    opacity:0.5;
+}
+
+h1{
+  font-size: xx-large;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -moz-font-feature-settings: "dlig";
+  opacity: 1;
+  
+}
+
+.card{
+  /*row-gap: 30%;*/
+ margin-bottom: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+  max-width: 540px;
+}
+
+
+  
+
+.card img {
+  max-width: 1000rem;
+    width: 95%;
+    height: auto;
+}
+
+.headline-animation{
+    animation-duration: 2s;
+    animation-name: bounceIn;
+}
+
+@keyframes bounceIn {
+    0% {
+      transform: scale(0.1);
+      opacity: 0;
+    }
+    60% {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .jumbotron:hover{
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+  }
+
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    a {
+      color: #f55e05;
+      text-decoration: none;
+      text-decoration-line: none;
+      text-decoration-style: initial;
+      text-decoration-color: initial;
+      background-color: transparent;
+      font-size: x-large;
+  }
+  .hour{
+    white-space: pre;
+    display:block;
+  }
+  .recomm{
+    white-space: pre;
+    display:block;
+    font-size:medium;
+    font-style:italic;
+  }
+  .square{
+height:auto;
+width:95%;
+  }
+  .mb-3{
+    width: 95%;
+    height:auto;
+    max-width: 1000rem;
+  }
+  
