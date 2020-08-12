@@ -13,17 +13,16 @@ body {
     background-image: url('images/Ethiopianflag.jpg');
     background-size: contain;
     opacity:0.5;
+    padding: 0.1em 0.1em;
     
 }
 
 
 h1{
-  font-size: xx-large;
-  font-weight: 700;
+font-size: xx-large;
+  font-weight: 100;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   -moz-font-feature-settings: "dlig";
-  opacity: 1;
-  
 }
 
 .card{
@@ -122,5 +121,9 @@ width:95%;
     width: 95%;
     height:auto;
     max-width: 1000rem;
+    background: #1E9600;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   }
   
